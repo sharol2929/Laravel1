@@ -1,0 +1,43 @@
+h1{
+    background-color: rgb(161, 108, 9);
+    font-family: Impact;
+    color: rgb(223, 216, 185);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#titulocard{
+    background-color: dodgerblue;
+    font-family: Impact;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#divimagen{
+    margin: auto;
+    
+}
+#creador{
+    background-image: url("../imagenes/creador.jpg");
+}
+
+#imgoda{
+    border-radius: 4px;
+    box-shadow: 8px;
+}
+
+#creadortxt{
+    background-color: rgb(99, 77, 37);
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+#noticias{
+    border: 4px solid rgb(161, 108, 9);
+    border-radius: 5px;
+    background-image: url("../imagenes/toei.png");
+    align-items: center;
+}

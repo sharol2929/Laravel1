@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\InicioControl;
+use App\Http\Controllers\Admin\MundoControl;
+use App\Http\Controllers\Admin\MediaControl;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [InicioControl::class, 'traer_inicio']);
+
+Route::get('sobre_mundo/personajes', [MundoControl::class, 'traer_personajes']);
+Route::get('sobre_mundo/organizaciones', [MundoControl::class, 'traer_organizaciones']);
+Route::get('sobre_mundo/akuma_no_mi', [MundoControl::class, 'traer_akuma']);
+
+Route::get('sobre_media/anime', [MediaControl::class, 'traer_anime']);
+Route::get('sobre_media/manga', [MediaControl::class, 'traer_manga']);
+
+
