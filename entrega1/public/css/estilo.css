@@ -6,6 +6,22 @@ h1{
     text-align: center;
 }
 
+.titulosP{
+    background-color: dodgerblue;
+    font-family: Impact;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.titulosC{
+    background-color: yellow;
+    font-family: Impact;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
 #titulocard{
     background-color: dodgerblue;
     font-family: Impact;
@@ -19,6 +35,15 @@ h1{
     margin: auto;
     
 }
+
+#divOpersonajes{
+    border: 6px double yellow;
+}
+
+#divpersonajes{
+    border: 6px double dodgerblue;
+}
+
 #creador{
     background-image: url("../imagenes/creador.jpg");
 }

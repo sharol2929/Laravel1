@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index">
                         <img
                             src="../imagenes/logo.png"
                             class="me-2"
