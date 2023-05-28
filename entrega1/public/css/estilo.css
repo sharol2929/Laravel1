@@ -6,7 +6,7 @@ h1{
     text-align: center;
 }
 
-.titulosP{
+.titulosP, .TitulosOG{
     background-color: dodgerblue;
     font-family: Impact;
     color: black;
@@ -14,7 +14,15 @@ h1{
     text-align: center;
 }
 
-.titulosC{
+.TitulosOP{
+    background-color: rgb(226, 75, 75);
+    font-family: Impact;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.titulosC, .titulom{
     background-color: yellow;
     font-family: Impact;
     color: black;
@@ -65,4 +73,9 @@ h1{
     border-radius: 5px;
     background-image: url("../imagenes/toei.png");
     align-items: center;
+}
+
+.carousel-item{
+    background-image: url(../imagenes/organizaciones/fondoP.jpg);
+    border-radius: 10px;
 }

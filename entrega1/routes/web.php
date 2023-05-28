@@ -17,7 +17,7 @@ use App\Http\Controllers\Admin\MediaControl;
 |
 */
 
-Route::get('/index', [InicioControl::class, 'traer_inicio']);
+Route::get('/', [InicioControl::class, 'traer_inicio']);
 
 Route::get('sobre_mundo/personajes', [MundoControl::class, 'traer_personajes']);
 Route::get('sobre_mundo/organizaciones', [MundoControl::class, 'traer_organizaciones']);
