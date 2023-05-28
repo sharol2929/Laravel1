@@ -79,3 +79,7 @@ h1{
     background-image: url(../imagenes/organizaciones/fondoP.jpg);
     border-radius: 10px;
 }
+
+#divtabla{
+    margin: auto;
+}
